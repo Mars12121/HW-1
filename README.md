@@ -25,6 +25,8 @@
 - Для проверки корректности настройки, разорвите один из кабелей между одним из маршрутизаторов и Switch0 и запустите ping между PC0 и Server0.
 - На проверку отправьте получившуюся схему в формате pkt и скриншот, где виден процесс настройки маршрутизатора.
 
+Схема https://github.com/Mars12121/HW-1/blob/main/Files/hsrp_advanced.pkt
+
 ![alt text](https://github.com/Mars12121/HW-1/blob/main/img/1.png)
 ![alt text](https://github.com/Mars12121/HW-1/blob/main/img/2.png)
 ------
@@ -47,6 +49,7 @@ else
 exit 1
 fi
 ```
+Файл Keepalived https://github.com/Mars12121/HW-1/blob/main/Files/keepalived.conf
 
 ![alt text](https://github.com/Mars12121/HW-1/blob/main/img/3.png)
 ![alt text](https://github.com/Mars12121/HW-1/blob/main/img/4.png)
